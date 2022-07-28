@@ -111,12 +111,14 @@ class Home extends Component {
               className="datepicker"
               minDate={moment().toDate()}
               selected={this.state.startDate}
+              placeholderText="Date"
               onChange={(date: Date) => this.setState({ startDate: date })}
             />
             <Stack spacing={2} direction="row">
               <input
                 className="input"
                 type="text"
+                placeholder="Amount"
                 onChange={(event) => this.handleChange(event)}
               />
               <Button variant="contained" onClick={() => this.Add()}>
