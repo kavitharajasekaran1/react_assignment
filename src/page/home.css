@@ -1,0 +1,41 @@
+.spacing{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-between;
+   flex-direction: column;
+}
+.transaction {
+    display: flex;
+    align-items: center;
+justify-content: space-between;  
+  flex-direction: row;
+    padding-top: 3%;
+   
+
+}
+.input {
+   margin-left: 3%; 
+}
+.button {
+    margin-right: 20px;
+    font-size: small;  
+}
+.datepicker {
+    height: 30px
+}
+.width {
+    width: 120px;
+    height : 30px
+}
+.message {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2%;
+}
+
+@media screen {
+    
+}
